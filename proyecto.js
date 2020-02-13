@@ -17,6 +17,9 @@ function calcular(){
     for (var i = 0, length = conyuge.length; i < length; i++) {
         if (conyuge[i].checked) {
             conyuge = conyuge[i].value;
+            if(conyuge === 1){
+
+            }
         break;
      }
     }
