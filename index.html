@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="proyecto.js"></script>
+    <title>Seguros TK-U</title>
+</head>
+<body>
+    <form action="">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" name="nombre" id="nombre" required>
+        <br>
+        <label for="day">Dia de nacimiento</label>
+        <input type="number" name="day" id="day" required>
+        <br>
+        <label for="mont">Mes de nacimiento</label>
+        <input type="number" name="mont" id="mont" required>
+        <br>
+        <label for="year">Año de nacimiento</label>
+        <input type="number" name="year" id="year" required>
+        <br>
+        <input type="radio" name="conyuge" id="conyugeSi" value="1">  
+        <label for="conyugeSi">Si</label>
+        <input type="radio" name="conyuge" id="conyugeNo" value="0">
+        <label for="conyugeNo">No</label>
+        <br>
+        <input type="radio" name="hijos" id="hijosSi" value="1">  
+        <label for="hijosSi">Si</label>
+        <input type="radio" name="hijos" id="hijosNo" value="0">
+        <label for="hijosNo">No</label>
+        <br>
+        <label for="cantHijos">Cantidad de Hijos</label>
+        <input type="number" name="cantHijos" id="cantHijos" required>
+        <br>
+        <input type="button" onclick="calcular()" value="Calcular">
+
+    </form>
+</body>
+</html>
