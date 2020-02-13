@@ -13,7 +13,6 @@ function calcular(){
     diaNacimiento = document.getElementById('day').value;
     mesNacimiento = document.getElementById('mont').value;
     anioNacimiento = document.getElementById('year').value;
-
     conyuge = document.getElementsByName('conyuge');
     for (var i = 0, length = conyuge.length; i < length; i++) {
         if (conyuge[i].checked) {
