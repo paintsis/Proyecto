@@ -1,9 +1,9 @@
-#### h4 Colaboradores
+#### Colaboradores
 
 Sherwin Antonio González Yoc 20002662
 Luis Enrique Marroquin Campos 20000202
 
-#### h4 Como Utilizar el programa
+#### Como Utilizar el programa
 
 Paso 1: Abrir Index
 Paso 2: Insertar Nombre
